@@ -32,6 +32,11 @@
     margin: auto;
     background-color: lightblue;
 }
+
+.debug>footer .container {
+    height: 50%;
+    background-color: violet;
+}
 /* /Debug */
 
 /* Header */
@@ -62,3 +67,7 @@ nav .colonnaxl {
     width: 100%;
 }
 /* /Main */
+
+/* Footer */
+/* /Footer */
+
