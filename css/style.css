@@ -10,6 +10,10 @@
     clear: both;
 }
 
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
 /* Debug */
 .debug header {
     height: 50px;
@@ -90,8 +94,11 @@
 /* /Debug */
 
 /* Header */
+header {
+    background-color: #3161E0;
+}
 .container, .background .container {
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
@@ -101,14 +108,38 @@
 
 nav {
     width: 100%;
+    padding: 1rem 0;
 }
  
 nav .hcolonnasm {
     width: 30%;
+    line-height: 100%;
 }
 
 nav .hcolonnaxl {
     width: 40%;
+}
+
+.hcolonnaxl {
+    text-align: center;
+    padding-top: 0.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.accedi {
+    text-align: right;
+    padding: 0.2rem;
+}
+
+.font {
+    font-family: 'Comfortaa', cursive;
+    padding: 0.4rem;
+    border-radius: 3rem;
+    border: 1px solid gray;
 }
 /* /Header */
 
@@ -160,9 +191,6 @@ nav .hcolonnaxl {
 /* /Main */
 
 /* Footer */
-footer>.background .container {
-    padding: 5px 0;
-}
 .fcolonnaxl, .fcolonnasm {
     float: left;
 }
