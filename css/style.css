@@ -109,12 +109,12 @@ nav {
 }
 
 nav .hcolonnasm {
-    width: 30%;
+    width: 20%;
     line-height: 100%;
 }
 
 nav .hcolonnaxl {
-    width: 40%;
+    width: 60%;
 }
 
 .hcolonnaxl {
@@ -152,8 +152,12 @@ a{
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
+}
+
+.spazi {
+    padding: 10rem;
 }
 
 .hero {
@@ -185,6 +189,7 @@ h1 {
 
 .download {
     padding-top: 1rem;
+    
 }
 .blackbtn {
     background-color: black;
@@ -193,6 +198,7 @@ h1 {
     padding: 1rem;
     font-size: 1.2rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .whitebtn {
@@ -201,6 +207,7 @@ h1 {
     padding: 1rem;
     font-size: 1.2rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .colonnaxl, .colonnasm {
@@ -208,12 +215,44 @@ h1 {
 }
 
 .colonnaxl {
-    width: 60%;
+    width: 70%;
+}
+
+.img_sx {
+    position: relative;
+    left: 16rem;
 }
 
 .colonnasm {
-    width: 40%;
+    width: 30%;
 }
+
+.main_title {
+    font-size: 3rem;
+}
+
+.main_text {
+    font-size: 1.5rem;
+}
+
+.wave {
+    position:relative;
+    top: 1rem;
+    opacity: 0.1;
+}
+.backwave {
+    background-color: #E6E6E6;
+    position: relative;
+    top: 5px;
+}
+
+.rotwave {
+    transform: rotate(180deg);
+    opacity: 0.1;
+    position: relative;
+    top: 5px;
+}
+
 
 .downcontain {
     width: 88%;
