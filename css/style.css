@@ -9,3 +9,42 @@
     display: table;
     clear: both;
 }
+
+/* Debug */
+.debug header {
+    height: 50px;
+    background-color: green;
+}
+
+.debug .colonnasm, .debug .colonnaxl {
+    height: 50px;
+    background-color: lightgreen;
+}
+/* /Debug */
+
+/* Header */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+header * {
+    padding: 0 1rem;
+}
+
+.colonnasm, .colonnaxl {
+    float: left;
+}
+
+nav {
+    width: 100%;
+}
+ 
+nav .colonnasm {
+    width: 30%;
+}
+
+nav .colonnaxl {
+    width: 40%;
+}
+/* /Header */
