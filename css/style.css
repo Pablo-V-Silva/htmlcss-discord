@@ -30,10 +30,8 @@ body {
     background-color: blue;
 }
 
-.background .container {
-    width: 70%;
+.debug .background .container {
     height: 100%;
-    margin: auto;
     background-color: lightblue;
 }
 
@@ -98,7 +96,7 @@ header {
     background-color: #3161E0;
 }
 .container, .background .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -106,9 +104,12 @@ header {
     float: left;
 }
 
+.logo {
+    padding-top: 0.2rem;
+}
+
 nav {
     width: 100%;
-    padding: 1rem 0;
 }
  
 nav .hcolonnasm {
@@ -144,17 +145,17 @@ a{
 /* /Header */
 
 /* Main */
-.background {
-    width: 100%;
-}
 
 .upposition {
     position: relative;
 }
 
-.downposition {
-    position: relative;
-}
+/* .hero {
+    background-image: url("../img/jumbo.png");
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+} */
 
 .upcontainerxl {
     width: 60%;
@@ -187,6 +188,10 @@ a{
 
 .downcontainersm, .downcontainerxl {
     width: 100%;
+}
+
+.downposition {
+    position: relative;
 }
 /* /Main */
 
