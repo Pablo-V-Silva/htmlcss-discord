@@ -59,7 +59,7 @@
 }
 
 .debug .downcontain {
-    height: 100%;
+    height: 90%;
     background-color: rgb(68, 255, 255);
 }
 
@@ -70,6 +70,21 @@
 
 .debug .downcontainerxl {
     height: 60%;
+    background-color: azure;
+}
+
+.debug .fcolonnaxl {
+    height: 100%;
+    background-color: azure;
+}
+
+.debug .fcolonnasm {
+    height: 100%;
+    background-color: azure;
+}
+
+.debug .credits {
+    height: 100%;
     background-color: azure;
 }
 /* /Debug */
@@ -106,6 +121,10 @@ nav .hcolonnaxl {
     position: relative;
 }
 
+.downposition {
+    position: relative;
+}
+
 .upcontainerxl {
     width: 60%;
     position: absolute;
@@ -129,6 +148,10 @@ nav .hcolonnaxl {
 .downcontain {
     width: 88%;
     margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .downcontainersm, .downcontainerxl {
@@ -137,5 +160,24 @@ nav .hcolonnaxl {
 /* /Main */
 
 /* Footer */
+footer>.background .container {
+    padding: 5px 0;
+}
+.fcolonnaxl, .fcolonnasm {
+    float: left;
+}
+
+.fcolonnaxl {
+    width: 30%;
+}
+
+.fcolonnasm {
+    width: 17.5%;
+}
+
+.credits {
+    float: left;
+    width: 50%;
+}
 /* /Footer */
 
